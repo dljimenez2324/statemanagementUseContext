@@ -1,13 +1,13 @@
-import { useContext } from "react"
+// import { useContext } from "react"
 import Login from "../state-management/Auth/Login";
-import TodoContext from "../state-management/Todos/todoContext";
+// import TodoContext from "../state-management/Todos/todoContext";
 import useCounterStore from "../state-management/Counter/store";
 
 
 const MyNavbar = () => {
 
   // now we can call useContext here too
-  const{todos} = useContext(TodoContext);
+  // const{todos} = useContext(TodoContext);
   // const { max } = useCounterStore();
   const counter = useCounterStore(s => s.counter);
 
