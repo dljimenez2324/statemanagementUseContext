@@ -1,7 +1,12 @@
-import { Link } from "react-router-dom"
+import { Link, useRouteError } from "react-router-dom"
 
 
 const HomePage = () => {
+
+  // throw new Error("we have an error")
+
+
+
   return (
   <>
     <p>
